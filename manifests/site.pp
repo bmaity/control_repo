@@ -1,5 +1,5 @@
 node default {
-  file{'root/README':
+  file{'/etc/puppetlabs/code/environments/production/manifests/site.pp':
     ensure => file,
   }
 }
